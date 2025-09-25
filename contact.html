@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dental Services</title>
-  <link rel="stylesheet" href="./index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 </head>
 <body>
   <!-- ================= HEADER / NAVBAR ================= -->
@@ -15,7 +15,7 @@
       <nav class="navbar">
         <!-- LOGO -->
         <a href="index.html" class="logo">
-          <img src="img/teeth.png" alt="Dentia Logo">
+          <img src="img/teeth.png" alt="Dentia Logo" />
           <span>dentia</span>
         </a>
 
@@ -45,53 +45,74 @@
     document.getElementById("navLinks").classList.toggle("active");
   });
 </script>
+
   </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-left">
-      <img src="./img/checking.png" alt="Dentist treating patient" class="main-img">
-      <img src="./img/doctorChecking.png" alt="Nurse smiling" class="overlay-img">
-    </div>
-    <div class="hero-right">
-      <h1 class="subtitle">General Dentistry</h1>
-      <h1>Comprehensive Oral Care for Every Stage of Life</h1>
-      <p>
-        Our general dentistry services focus on the prevention, diagnosis, and treatment
-        of a wide range of oral health issues. Whether you’re coming in for a routine
-        check-up or seeking relief from dental pain, our experienced team is here to help
-        you maintain a healthy, confident smile.
-      </p>
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <div class="contact-container">
+
+      <!-- LEFT SIDE CONTENT -->
+      <div class="contact-info">
+        <span class="sub-title">Get In Touch</span>
+        <h2>We are always ready to help you and answer your questions</h2>
+        <p>
+          Whether you have a question, a suggestion, or just want to say hello,
+          this is the place to do it. Please fill out the form below with your
+          details and message, and we'll get back to you as soon as possible.
+        </p>
+
+        <div class="contact-details">
+          <div class="detail-box">
+            <i class="fa-regular fa-clock"></i>
+            <div>
+              <strong>We're Open</strong>
+              <p>Monday - Friday 08.00 – 18.00</p>
+            </div>
+          </div>
+
+          <div class="detail-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Clinic Location</strong>
+              <p>100 S Main St, New York, NY</p>
+            </div>
+          </div>
+
+          <div class="detail-box">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Call Us Directly</strong>
+              <p>+1 123 456 789</p>
+            </div>
+          </div>
+
+          <div class="detail-box">
+            <i class="fa-regular fa-envelope"></i>
+            <div>
+              <strong>Send a Message</strong>
+              <p>contact@dentiacare.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT SIDE FORM -->
+      <div class="contact-form">
+        <h3>Get In Touch</h3>
+        <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="tel" placeholder="Your Phone" required>
+          <textarea placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
     </div>
   </section>
 
-  <!-- Services Section -->
-  <section class="services">
-    <div class="service-card">
-      <h3>Routine Exams & Cleanings</h3>
-      <p>Keep your teeth and gums healthy with regular check-ups and cleanings.</p>
-    </div>
-    <div class="service-card">
-      <h3>Digital X-rays & Diagnostics</h3>
-      <p>Quick, safe imaging to detect hidden dental issues early.</p>
-    </div>
-    <div class="service-card">
-      <h3>Tooth-Colored Fillings</h3>
-      <p>Natural-looking solutions to treat cavities and restore strength to your teeth.</p>
-    </div>
-    <div class="service-card">
-      <h3>Tooth Extractions</h3>
-      <p>Comfortable, gentle removal of damaged or problematic teeth.</p>
-    </div>
-    <div class="service-card">
-      <h3>Root Canal Therapy</h3>
-      <p>Save infected teeth with this pain-relieving, tooth-saving procedure.</p>
-    </div>
-    <div class="service-card">
-      <h3>Gum Disease Treatment</h3>
-      <p>Non-surgical and deep-cleaning options to treat gingivitis and periodontitis.</p>
-    </div>
-  </section>
+  <!-- ================= FOOTER ================= -->
   <footer class="footer">
   <div class="footer-container">
     <div class="footer-col brand-col">
@@ -133,3 +154,4 @@
 </footer>
 </body>
 </html>
+

@@ -19,48 +19,31 @@
           <span>dentia</span>
         </a>
 
-        <!-- NAV LINKS -->
-        <ul class="nav-links" id="navLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
-            <ul class="dropdown-menu">
-              <li><a href="Services1.html">Service 1</a></li>
-              <li><a href="Services 2.html">Service 2</a></li>
-              <li><a href="Services 3.html">Service 3</a></li>
-            </ul>
-          </li>
-          <li><a href="dentists.html">Dentists</a></li>
-          
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle">Pages <i class="fas fa-chevron-down"></i></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Page 1</a></li>
-              <li><a href="#">Page 2</a></li>
-              <li><a href="#">Page 3</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-
-        <!-- BOOK BUTTON -->
-        <a href="#appointment" class="book-btn">Book Appointment</a>
-
-        <!-- HAMBURGER -->
-        <div class="hamburger" id="hamburger">
-          <i class="fas fa-bars"></i>
-        </div>
-      </nav>
-    </div>
-
-    <!-- JS TOGGLE MENU -->
+        <nav class="navbar">
+  <div class="hamburger" id="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li class="dropdown">
+      <a href="#" class="dropdown-toggle">Services <i class="fas fa-chevron-down"></i></a>
+      <ul class="dropdown-menu">
+        <li><a href="Services1.html">Service 1</a></li>
+        <li><a href="Services 2.html">Service 2</a></li>
+        <li><a href="Services 3.html">Service 3</a></li>
+      </ul>
+    </li>
+    <li><a href="dentists.html">Dentists</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <a href="#appointment" class="book-btn">Book Appointment</a>
+  </ul>
+</nav>
     <script>
-      document.getElementById("hamburger").addEventListener("click", function () {
-        document.getElementById("navLinks").classList.toggle("active");
-      });
-    </script>
+  document.getElementById("hamburger").addEventListener("click", function () {
+    document.getElementById("navLinks").classList.toggle("active");
+  });
+</script>
   </header>
 
   <!-- ================= HERO SECTION ================= -->
@@ -74,26 +57,26 @@
   </div>
 
   <!-- ================= CONTACT INFO ================= -->
-  <section class="contact-info">
-    <div class="info-box">
+  <section class="contact-information">
+    <div class="information-box">
       <i class="fas fa-phone fa-2x icon"></i>
-      <div class="info-txt">
+      <div class="information-txt">
         <h4>Need Dental Services?</h4>
         <p>Call:+1 123 456 789</p>
       </div>
     </div>
     <div class="divider"></div>
-    <div class="info-box">
+    <div class="information-box">
       <i class="fa-solid fa-clock fa-2x icon"></i>
-      <div class="info-text">
+      <div class="information-text">
         <h4>Opening Hours</h4>
         <p>Mon to Sat 08:00 - 20:00</p>
       </div>
     </div>
     <div class="divider"></div>
-    <div class="info-box">
+    <div class="information-box">
       <i class="fas fa-envelope fa-2x icon"></i>
-      <div class="info-text">
+      <div class="information-text">
         <h4>Email Us</h4>
         <p>contact@dentialclinic.com</p>
       </div>
@@ -191,7 +174,7 @@
   <section class="team-section">
     <h2 class="subtitle">Meet Our Dental Team</h2>
     <h1 class="title">Committed to your Smile</h1>
-    <p class="description">Our Experienced dental team is here...</p>
+    <h4 class="description">Our Experienced dental team is here...</h4>
     <div class="team-cards">
       <div class="card"><img src="img/doctor1.png"><div class="card-info"><h3>Dr.Sarah Bennett</h3><p>Lead Dentist</p></div></div>
       <div class="card"><img src="img/doctor2.png"><div class="card-info"><h3>Dr.Maya Lin</h3><p>Cosmetic Dentist</p></div></div>
@@ -218,9 +201,9 @@
   <!-- ================= TESTIMONIALS ================= -->
   <section class="testimonials-section">
     <div class="testimonial-header">
-      <h3 class="subtitle">Testimonials</h3>
+      <h2 class="subtitle">Testimonials</h2>
       <h2 class="title">Our Happy Customers</h2>
-      <p class="description">Join thousands of happy patients...</p>
+      <h4 class="description">Join thousands of happy patients...</h4>
     </div>
     <div class="testimonial-cards">
       <div class="card"><div class="quote-icon">❝</div><img src="img/boy1.png" class="avatar"><p class="name">Bryan G.</p><p class="role">Customer</p><p class="feedback">"From the moment I walked in..."</p></div>
@@ -245,7 +228,13 @@
         <p>At Dentia we're dedicated to providing high quality, personalized dental care...</p>
         <div class="social-icons"><i class="fab fa-facebook-f"></i><i class="fab fa-x-twitter"></i><i class="fab fa-whatsapp"></i><i class="fab fa-instagram"></i><i class="fab fa-youtube"></i></div>
       </div>
-      <div class="footer-col"><h4>Company</h4><ul><li>Home</li><li>Our Services</li><li>Gallery</li><li>About Us</li><li>Blog</li><li>Contact</li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Services 2.html"></a>Our Services</li>
+        <li><a href="about.html"></a>About Us</li>
+        <li><a href="contact.html"></a>Contact</li>
+      </ul>
+    </div>
       <div class="footer-col"><h4>Our Services</h4><ul><li>General Dentistry</li><li>Cosmetic Dentistry</li><li>Pediatric Dentistry</li><li>Restorative Dentistry</li><li>Preventive Dentistry</li><li>Orthodontics</li></ul></div>
       <div class="footer-col contact-col"><h4>Contact Us</h4><p><i class="fas fa-map-marker-alt"></i> <strong>Clinic Location</strong><br>100 S Main St, New York, NY</p><p><i class="fas fa-phone"></i> <strong>Call Us</strong><br>+1 123 456 789</p><p><i class="fas fa-envelope"></i> <strong>Send a Message</strong><br>contact@dentiacare.com</p></div>
     </div>
